@@ -42,7 +42,7 @@ jobs:
 
       - name: Setup Tofu
         if: matrix.tool == 'tofu'
-        uses: opentofu/setup-opentofu@12f4debbf681675350b6cd1f0ff8ecfbda62027b # v1.0.4
+        uses: opentofu/setup-opentofu@000eeb8522f0572907c393e8151076c205fdba1b # v1.0.6
         with:
           tofu_version: latest
           tofu_wrapper: false
